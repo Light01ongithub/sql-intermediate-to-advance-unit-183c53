@@ -61,3 +61,5 @@ INNER JOIN books ON sales.book_id = books.book_id
 GROUP BY books.genre
 HAVING SUM(sales.quantity) > 10
 ORDER BY books.genre;
+
+--the sceconmd commy
